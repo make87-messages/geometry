@@ -1,0 +1,15 @@
+syntax = "proto3";
+package make87.geometry.box;
+import "google/protobuf/timestamp.proto";
+import "geometry/box/Box2D.proto";
+
+message Boxes2D {
+  google.protobuf.Timestamp timestamp = 1;
+  repeated Boxes2D boxes = 2;
+}
+
+message Boxes2DAxisAligned {
+  google.protobuf.Timestamp timestamp = 1;
+  repeated Box2DAxisAligned boxes = 2;
+}
+
