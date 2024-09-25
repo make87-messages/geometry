@@ -1,7 +1,7 @@
 syntax = "proto3";
 package make87.geometry.box;
 import "google/protobuf/timestamp.proto";
-import "geometry/box/Box2D.proto";
+import "geometry/box/box_2_d.proto";
 
 message Boxes2D {
   google.protobuf.Timestamp timestamp = 1;
