@@ -1,6 +1,6 @@
 syntax = "proto3";
-package make87_messages_geometry.box;
-import "make87_messages_geometry/box/box_2d.proto";
+package make87_messages.geometry.box;
+import "make87_messages/geometry/box/box_2d.proto";
 import "google/protobuf/timestamp.proto";
 
 message Boxes2D {
