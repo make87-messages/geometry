@@ -5,11 +5,11 @@ import "google/protobuf/timestamp.proto";
 
 message Boxes2D {
     google.protobuf.Timestamp timestamp = 1;
-    repeated make87_messages.geometry.box.Box2D boxes = 2;
+    repeated make87_messages_geometry.box.Box2D boxes = 2;
 }
 
 message Boxes2DAxisAligned {
     google.protobuf.Timestamp timestamp = 1;
-    repeated make87_messages.geometry.box.Box2DAxisAligned boxes = 2;
+    repeated make87_messages_geometry.box.Box2DAxisAligned boxes = 2;
 }
 
